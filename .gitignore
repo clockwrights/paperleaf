@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+installer/Output/
+.pytest_cache/
+tests/_out/
+shellext/build/
+*.pfx
+*.p12
+*.cer
+*.msix
+.vscode/
+.idea/

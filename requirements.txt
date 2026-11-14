@@ -1,0 +1,5 @@
+PySide6-Essentials>=6.8
+pymupdf>=1.26,<2  # 2.x pulls in numpy + onnxruntime and starts ~6s slower
+pywin32>=306; sys_platform == "win32"   # Explorer integration, Office -> PDF, Read Out Loud
+pdf2docx>=0.5.8   # PDF -> Word; brings numpy and OpenCV, imported only while exporting to Word
+pyHanko>=0.25,<1   # certificate signatures (offline: fetching off, network blocked while it runs)

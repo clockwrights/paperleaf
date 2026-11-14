@@ -1,0 +1,4 @@
+LIBRARY PaperleafShell
+EXPORTS
+    DllGetClassObject   PRIVATE
+    DllCanUnloadNow     PRIVATE
